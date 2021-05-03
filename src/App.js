@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Title content="This is Title" />
+      <Title content="Pokemon's List " />
       <PokemoneList />
     </>
   );

@@ -22,9 +22,11 @@ export default function PokemoneList() {
 }
 
 const PList = styled.div`
-  margin: 2rem auto;
+  margin: 2rem 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  font-size:2rem;
+ 
 `;

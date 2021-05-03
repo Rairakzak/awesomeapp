@@ -19,12 +19,16 @@ export default function Pokemon(props) {
 const Pok = styled.div`
   padding: 2rem;
   margin: 1rem;
-  width: 60%;
+  width: 30vw;
+  min-height: max-content;
   border: 1px solid black;
   border-radius: 5px;
+  @media (max-width: 767px) {
+    width: 80vw;
+  }
   ul {
     display: flex;
-
+    flex-wrap: wrap;
     li {
       margin-left: 1rem;
       list-style: none;

@@ -11,5 +11,8 @@ export default function title({ content }) {
 
 const TIT = styled.div`
   margin: 2rem auto;
-  text-align:center;
+  text-align: center;
+  h1 {
+    font-size: 3rem;
+  }
 `;
